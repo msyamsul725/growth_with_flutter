@@ -464,25 +464,6 @@
                     }
                 },
                 {
-                    "source": "/Users/user/Documents/development/getx/getx_methode/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,832",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "483,998"
-                    },
-                    "to": {
-                        "startLines": "153,157",
-                        "startColumns": "4,4",
-                        "startOffsets": "10738,10919",
-                        "endLines": "156,159",
-                        "endColumns": "12,12",
-                        "endOffsets": "10914,11083"
-                    }
-                },
-                {
                     "source": "/Users/user/.gradle/caches/transforms-3/076eb9235982ee06112d76594ea8585f/transformed/jetified-window-1.0.0-beta04/res/values/values.xml",
                     "from": {
                         "startLines": "2,7,8,9,10,11,19,23,34,51",
@@ -533,6 +514,25 @@
                         "startOffsets": "7209",
                         "endColumns": "49",
                         "endOffsets": "7254"
+                    }
+                },
+                {
+                    "source": "/Users/user/Documents/development/getx/growth_with_flutter/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,832",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,998"
+                    },
+                    "to": {
+                        "startLines": "153,157",
+                        "startColumns": "4,4",
+                        "startOffsets": "10738,10919",
+                        "endLines": "156,159",
+                        "endColumns": "12,12",
+                        "endOffsets": "10914,11083"
                     }
                 },
                 {
@@ -1409,7 +1409,7 @@
             "outputFile": "com.example.getx_methode.app-merged_res-28:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/user/Documents/development/getx/getx_methode/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/user/Documents/development/getx/growth_with_flutter/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

@@ -4,7 +4,7 @@
             "outputFile": "com.example.getx_methode.app-mergeDebugResources-26:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/user/Documents/development/getx/getx_methode/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/user/Documents/development/getx/growth_with_flutter/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

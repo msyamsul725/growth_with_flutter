@@ -4,6 +4,7 @@ import 'package:fhe_template/module/01_form/controller/form_controller.dart';
 import 'package:fhe_template/module/02_http/controller/http_controller.dart';
 import 'package:fhe_template/module/03_ui_dashboard/controller/ui_dashboard_controller.dart';
 import 'package:fhe_template/module/04_widget/controller/widget_controller.dart';
+import 'package:fhe_template/module/05_apps/controller/apps_controller.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -17,6 +18,7 @@ class HomeView extends StatelessWidget {
     final http = Get.put(HttpController());
     final uiDash = Get.put(UiDashboardController());
     final widgetUi = Get.put(WidgetController());
+    final apps = Get.put(AppsController());
     return GetBuilder<HomeController>(
       init: HomeController(),
       builder: (controller) {
@@ -55,7 +57,7 @@ class HomeView extends StatelessWidget {
                   const SizedBox(
                     height: 10.0,
                   ),
-                  EQMod(title: 'Apps', listData: uiDash.items),
+                  EQMod(title: 'Apps', listData: apps.apps),
                 ],
               ),
             ),

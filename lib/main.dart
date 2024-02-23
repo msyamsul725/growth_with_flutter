@@ -1,11 +1,8 @@
-import 'package:device_preview/device_preview.dart';
-import 'package:fhe_template/core.dart';
-import 'package:fhe_template/navigationNew/view/navigationNew_view.dart';
-import 'package:fhe_template/state_util.dart';
-import 'package:firebase_core/firebase_core.dart';
-
 import 'package:flutter/material.dart';
+
 import 'package:get/get.dart';
+
+import 'module/dashboard/view/dashboard_view.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -29,6 +26,6 @@ class MainApp extends StatelessWidget {
         title: "GetXSkeleton",
         useInheritedMediaQuery: true,
         debugShowCheckedModeBanner: false,
-        home: HomeView());
+        home: DashboardView());
   }
 }

@@ -1,10 +1,10 @@
-#Sat Feb 17 14:49:09 WIB 2024
-base.0=/Users/user/Documents/development/getx/getx_methode/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/user/Documents/development/getx/getx_methode/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
-base.2=/Users/user/Documents/development/getx/getx_methode/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.3=/Users/user/Documents/development/getx/getx_methode/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
-base.4=/Users/user/Documents/development/getx/getx_methode/build/app/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
-base.5=/Users/user/Documents/development/getx/getx_methode/build/app/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+#Thu Feb 22 09:43:54 WIB 2024
+base.0=/Users/user/Documents/development/getx/growth_with_flutter/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/user/Documents/development/getx/growth_with_flutter/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
+base.2=/Users/user/Documents/development/getx/growth_with_flutter/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.3=/Users/user/Documents/development/getx/growth_with_flutter/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.4=/Users/user/Documents/development/getx/growth_with_flutter/build/app/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
+base.5=/Users/user/Documents/development/getx/growth_with_flutter/build/app/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=0/classes.dex

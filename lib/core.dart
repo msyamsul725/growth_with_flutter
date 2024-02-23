@@ -164,7 +164,24 @@ export 'package:fhe_template/module/04_widget/pages/uk_carousel/controller/uk_ca
 export 'package:fhe_template/module/04_widget/pages/uk_carousel/view/uk_carousel_view.dart';
 export 'package:fhe_template/module/04_widget/view/widget_view.dart';
 export 'package:fhe_template/module/05_apps/controller/apps_controller.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/main.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/screens/_home_screen.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/screens/drawer/_drawer_screen.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/screens/drawer/drawer_menu.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/screens/drawer/drawer_profile.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/screens/trending/_trending_screen.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/screens/trending/trending_app_bar.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/screens/trending/trending_body.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/screens/trending/widgets/article_card.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/screens/trending/widgets/dot_indicators.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/screens/trending/widgets/trending_profile.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/shared/colors.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/shared/custom_system_ui_overlay_style.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/shared/data/data_source.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/shared/data/models/article.dart';
+export 'package:fhe_template/module/05_apps/main/lib_articale/shared/sizes.dart';
 export 'package:fhe_template/module/05_apps/view/apps_view.dart';
+
 export 'package:fhe_template/module/date time stream/controller/date time stream_controller.dart';
 export 'package:fhe_template/module/date time stream/view/date time stream_view.dart';
 export 'package:fhe_template/navigationNew/controller/navigationNew_controller.dart';

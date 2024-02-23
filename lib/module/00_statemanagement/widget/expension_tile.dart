@@ -1,9 +1,8 @@
 // ignore_for_file: camel_case_types
-import 'package:fhe_template/module/00_statemanagement/widget/tutorial_navigation_item.dart';
+
 import 'package:fhe_template/shared/theme/theme_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 
 class EQMod extends StatefulWidget {
   final String? title;
@@ -45,7 +44,13 @@ class _EQModState extends State<EQMod> {
               itemBuilder: (context, index) {
                 var item = widget.listData![index];
                 return InkWell(
-                  onTap: () => Get.to(item['view']),
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => item['view']),
+                    );
+                    // Get.to(item['view']);
+                  },
                   child: Container(
                     decoration: const BoxDecoration(
                       color: Colors.white,
