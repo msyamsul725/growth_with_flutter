@@ -37,69 +37,65 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Hero(
                         tag: 'blue_card',
-                        child: Material(
-                          child: Container(
-                            width: MediaQuery.of(context).size.width,
-                            height: 270,
-                            decoration: BoxDecoration(
-                              borderRadius: const BorderRadius.all(
-                                Radius.circular(15.0),
-                              ),
-                              color: Theme.of(context).primaryColor,
+                        child: Container(
+                          width: MediaQuery.of(context).size.width,
+                          height: 270,
+                          decoration: BoxDecoration(
+                            borderRadius: const BorderRadius.all(
+                              Radius.circular(15.0),
                             ),
-                            child: Padding(
-                              padding: const EdgeInsets.symmetric(vertical: 30),
-                              child: Column(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 30, vertical: 10),
-                                    child: Column(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.start,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      children: [
-                                        Row(
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.end,
-                                          children: [
-                                            Image.asset(
-                                              "assets/images/weather.png",
-                                              width: 25,
-                                            ),
-                                            const Text(
-                                              " 32'C",
-                                              style: TextStyle(
-                                                fontSize: 12,
-                                                color: Colors.white,
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                        const Text(
-                                          "24",
-                                          style: TextStyle(
-                                              height: 1.1,
-                                              fontSize: 50,
-                                              color: Colors.white,
-                                              fontWeight: FontWeight.w500),
-                                        ),
-                                        const Text(
-                                          "January",
-                                          style: TextStyle(
+                            color: Theme.of(context).primaryColor,
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(vertical: 30),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Padding(
+                                  padding: const EdgeInsets.symmetric(
+                                      horizontal: 30, vertical: 10),
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Row(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.end,
+                                        children: [
+                                          Image.asset(
+                                            "assets/images/weather.png",
+                                            width: 25,
+                                          ),
+                                          const Text(
+                                            " 32'C",
+                                            style: TextStyle(
                                               fontSize: 12,
-                                              height: 0.2,
                                               color: Colors.white,
-                                              fontWeight: FontWeight.w500),
-                                        ),
-                                      ],
-                                    ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                      const Text(
+                                        "24",
+                                        style: TextStyle(
+                                            height: 1.1,
+                                            fontSize: 50,
+                                            color: Colors.white,
+                                            fontWeight: FontWeight.w500),
+                                      ),
+                                      const Text(
+                                        "January",
+                                        style: TextStyle(
+                                            fontSize: 12,
+                                            height: 0.2,
+                                            color: Colors.white,
+                                            fontWeight: FontWeight.w500),
+                                      ),
+                                    ],
                                   ),
-                                ],
-                              ),
+                                ),
+                              ],
                             ),
                           ),
                         ),
@@ -113,13 +109,13 @@ class _HomePageState extends State<HomePage> {
                           child: listView(),
                         ),
                       ),
-                      Positioned(
-                          top: 0,
-                          right: 10,
-                          child: Image.asset(
-                            "assets/images/ladder.png",
-                            height: 180,
-                          ))
+                      // Positioned(
+                      //     top: 0,
+                      //     right: 10,
+                      //     child: Image.asset(
+                      //       "assets/images/ladder.png",
+                      //       height: 180,
+                      //     ))
                     ],
                   ),
                 ),
